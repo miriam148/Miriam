@@ -24,7 +24,12 @@
       max-inline-size: 100%;
       block-size: auto;
     }
-  
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
     @media (prefers-reduced-motion: reduce) {
       *,
       *::before,
@@ -37,8 +42,38 @@
     }
   }
 
+/* END RESET CSS*/
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  }
+
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+.header .top-bar {
+ 
+  height: calc(27.2px + 18px);
+  background-color: #474747;
+  padding: 9px 0;
+  color:#ffffff;
+}
+.header .top-bar{
+  color:white;
+
+}
+.header .top-bar img {
+  display: inline-block
+ }
+
+.header .contact-info,
+.header .social-networks ul {
+  display:flex;
+  align-items: center;
+}
 
 
-      .top-bar {
-        background-color: #474747;
-    }
+
