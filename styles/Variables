@@ -1,0 +1,5 @@
+:root {
+    --font-primary: "DM Sans", sans-serif;
+    --font-title: "Playfair Display", sans-serif;
+    
+}

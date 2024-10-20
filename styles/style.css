@@ -1,126 +1,37 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
-/* END RESET CSS*/
 
-.header {
+@import url(02-generic/reset.css);
+@import url(02-generic/container.css);
+@import url(03-elements/header.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header .main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .header .container-logo {
     display: flex;
-    width: 1600px;
-    height: 160px;
-    padding-bottom: 31px;
-    flex-direction: column;
     align-items: center;
-    gap: 28.829px;
-    flex-shrink: 0;
-    background-color: #f9f9f7;
-    box-sizing: border-box;
-}
-
-.top-bar {
-    display: flex;
-    width: 1600px;
-    padding: 9px 150px;
     justify-content: space-between;
+  }
+  .header nav.menu {
+    display: flex;
     align-items: center;
-    background-color: #474747;
-    box-sizing: border-box;
-}
+    justify-content: space-between;
 
-.info-contact{
-  display: flex;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.info-tel, .info-mail {
-  display: flex;
-  gap: 8px;
-}
-
-.contact-tel, .contact-email {
-  text-decoration: none;
-  color: #f9f9f7;
-}
-
-.social-networks {
-  display: flex;
-  align-items: flex-start;
-  gap: 4px;
-}
-
-.Header {
-  display: flex;
-  width: 1294.167px;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  width: 182.667px;
-  height: 38.667px;
-  padding: 4px 0px 4.67px 41.333px;
-  justify-content: flex-end;
-  align-items: center;
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
-
-h1 {
-  white-space: nowrap;
-}
-.menu> ul> li {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.menu> ul> li> a {
-  padding: 4px 16px;
-  text-decoration: none;
-  color: #2c2f24;
-}
+  }
 
 
 

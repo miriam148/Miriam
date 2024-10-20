@@ -1,0 +1,11 @@
+html {
+    font-family: var(--font-primary);
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between
+}
