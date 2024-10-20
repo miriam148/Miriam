@@ -1,33 +1,60 @@
 
-  .header .top-bar {
-    background-color: #474747;
-    padding: 9px 0;
-    color:#fff
-  }
-  .header .top-bar a {
-    color: white
-  }
-  .header .top-bar img {
-    display: inline-block;
-  }
-  .header .contact-info,
-  .header .social-networks ul {
-    display: flex;
-    align-items: center;
-    gap: 4px;
+.header {
+    .top-bar { 
+       background-color: #474747;
+       padding: 9px 0;
+       color: #fff;
+        a {
+             color: white;
+        }
+        img {
+              display: inline-block;
+        }
+    }
+   .contact-info {
+        gap: 25px;
+    }
+    .social-networks {
+        img {
+             background-color: rgb(249 249 247 / .12);
+             padding: 5px;
+             border-radius: 50%;
+             height: 27px;
+             width: 27px;
+        }
+        ul {
+             gap: 4px;
+        }
+    }
+
+    .contact-info,
+    .social-networks ul {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+        .main-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .container-logo {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h1 {
+                    margin: 0;
+                }
+              }
+              nav.menu ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+            }
   
-  }
-  .header .social-networks img {
-    background-color: rgb(249 249 247 / .12);
-    padding: 5px;
-    border-radius: 50%;
-    height: 27px;
-    width: 27px;
-  }
-  .header .contact-info {
-    gap: 25px;
-  }
-  .header .social-networks ul {
-    gap: 4px;
-  }
   
+  
+  
+  
+ 

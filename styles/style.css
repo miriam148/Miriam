@@ -16,22 +16,7 @@
 
 
 
-.header .main-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-  .header .container-logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header nav.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-  }
 
 
 
