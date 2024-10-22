@@ -1,9 +1,10 @@
 .button {
-    background-color: #fff;
+    background-color: transparent;
     border: 1.5px solid #000;
     border-radius: 118px;
     font-weight: 700;
     transition: all .5s;
+    padding: 20px 32px;
     &:hover {
         background-color: #000;
         color: #fff;
@@ -14,3 +15,14 @@
 .button-small {
     padding: 12px 24px;
 }
+button-primary {
+    background-color: #AD343E;
+    color: #fff;
+    border-color: #AD343E;
+    &:hover {
+        background-color: transparent;
+        color: #AD343E;
+        cursor: pointer;
+
+    }
+} 

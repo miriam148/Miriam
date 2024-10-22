@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Proyecto Codespace 2024</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    Font       
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link
+                href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+                rel="stylesheet"
+            />
 <link rel="Stylesheet" href="styles/style.css">
 </head>
 
@@ -76,55 +80,74 @@
 
 
 <main class="main">
-    <section class="hero container">
-      <hgroup>
-        <h2 class="secondary-title">Best food for your taste</h2>  
-        <p class="hero-description">Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
-      </hgroup>
-      <div class="hero-actions">
-       <button class="hero-buttons button-primary">Book A Table</button>
-       <button class="hero-buttons button-online">Explore Menu</button>
-      </div>
+    <section class="hero">
+        <div class="container">
+            <hgroup>
+                <h2 class="primary-title">Best food for your taste</h2>  
+                <p class="hero-description">Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
+              </hgroup>
+              <div class="actions">
+               <button class="button button-primary">Book A Table</button>
+               <button class="button">Explore Menu</button>
+              </div>
+      
+        </div>
     </section>
 
-    <section class="menu container">
+    <section class="container-padding our-menu container">
       <h2 class="secondary-title">Browse Our Menu</h2>
         <ul>
            <li>
                <article class="menu-item">
-               <img class="icon" src="images/icons/desayuno.svg">
-               <h3 class="tittle-card">Breakfast</h3>
+                <div class="icon-box">
+                <img class="icon" src="images/icons/desayuno.svg" alt="">
+                </div>
+               <div class="data-box">
+                <h3 class="tittle-card">Breakfast</h3>
                <p class="paragraph-card">In the new era of technology we look in the future with certainty and pride for our life.</p>
+               </div>
                <a class="link-card" href="#">Explore Menu</a>
                </article>
            </li> 
            <li>
                <article class="menu-item">
-               <img class="icon" src="images/icons/main-dishes.svg">
-               <h3 class="tittle-card">Main-dishes</h3>
-               <p class="paragraph-card">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                <div class="icon-box">
+                 <img class="icon" src="images/icons/main-dishes.svg">
+                </div>
+               <div class="data-box">
+                <h3 class="tittle-card">Main-dishes</h3>
+                <p class="paragraph-card">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                </div>
                <a class="link-card" href="#">Explore Menu</a>
                </article>
             </li>
             <li>
                <article class="menu-item">
-               <img class="icon" src="images/icons/drinks.svg">
-               <h3 class="tittle-card">Drinks</h3>
+                <div class="icon-box"> <img class="icon" src="images/icons/drinks.svg">
+                </div>
+              <div class="data-box">
+                <h3 class="tittle-card">Drinks</h3>
                <p class="paragraph-card">In the new era of technology we look in the future with certainty and pride for our life.</p>
+               </div>
                <a class="link-card" href="#">Explore Menu</a>
                </article>
             </li>
                 <article class="menu-item">
-                <img class="icon" src="images/icons/desserts.svg">
+                    <div class="icon-box">
+                        <img class="icon" src="images/icons/desserts.svg">
+
+                    </div>
+                <div class="data-box">
                 <h3 class="tittle-card">Desserts</h3>
                 <p class="paragraph-card">In the new era of technology we look in the future with certainty and pride for our life.</p>
+                </div>
                 <a class="link-card" href="#">Explore Menu</a>
                 </article>
             </li>
         </ul>
    </section>
 
-   <section class="about container">
+   <section class="container-padding about container">
       <div class="info">
            <address>
                 <h3>Come and visit us</h3>
@@ -152,7 +175,7 @@
 
     </section>
 
-     <section class="services container">
+     <section class="container-padding services container">
         <h2 class="secondary-title">We also offer unique services for your events </h2>
         <ul>
             <li>
@@ -187,7 +210,7 @@
 
      </section>
 
-    <section class="content container">
+    <section class="container-padding content container">
         <div class="content-images">
                  <img src="images/Chef.jpg" alt="Imagen de un chef con una sartén en la mano y con la otra emplatando varios platos">
 
@@ -218,7 +241,7 @@
           </div>
     </section>
 
-    <section class="testimonial container">
+    <section class="container-padding testimonial container">
          <h2 class="secondary title">What Our Customers Say</h2>
           <ul>
                 <li>
@@ -267,7 +290,7 @@
             </ul>
     </section>
 
-    <section class="blog container">
+    <section class="container-padding blog container">
        <header class="header-blog">
           <h2 class="secondary-title">Our Blog & Articles</h2>
           <a href="" class="button">Read All Articles</a>

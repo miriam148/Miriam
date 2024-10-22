@@ -11,4 +11,13 @@ html {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-title);
+    margin: 0;
+}
+.container-padding {
+    padding-block: 120px;
+}
+secondary-title {
+    font-size: 55px;
+    font-weight: 500;
+
 }
