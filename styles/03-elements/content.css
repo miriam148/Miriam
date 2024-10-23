@@ -7,7 +7,7 @@
     .content-images {
         display: inline-grid;
         grid-template-columns: 430px 24px 290px;
-        grid-template-rows: 30px 1fr 24px 1fr 30px;
+        grid-template-rows: 30px auto 24px auto 30px;
         img {
             &:first-child {
                 grid-row: 1 / 5;
