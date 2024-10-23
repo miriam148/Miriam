@@ -16,8 +16,11 @@ h1, h2, h3, h4, h5, h6 {
 .container-padding {
     padding-block: 120px;
 }
-secondary-title {
+.secondary-title {
     font-size: 55px;
     font-weight: 500;
+}
+.bg-color {
+    background: color #f9f9f7;
 
 }

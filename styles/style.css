@@ -6,7 +6,10 @@
 
 @import url(03-elements/header.css);
 @import url(03-elements/hero.css);
-@import url(03-elements/menu.css);
+@import url(03-elements/our-menu.css);
+@import url(03-elements/about.css);
+@import url(03-elements/services.css);
+@import url(03-elements/content.css);
 
 @import url(04-components/buttons.css);
 
