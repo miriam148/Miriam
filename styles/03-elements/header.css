@@ -1,72 +1,57 @@
-
 .header {
-    .top-bar { 
-       background-color: #474747;
-       padding: 9px 0;
-       color: #fff;
-        a {
-             color: white;
-        }
-        img {
-              display: inline-block;
-        }
+  .top-bar {
+    background-color: #474747;
+    padding: 9px 0;
+    color: #fff;
+    a {
+      color: white;
     }
-   .contact-info {
-        gap: 25px;
+    img {
+      display: inline-block;
     }
-    .social-networks {
-        img {
-             background-color: rgb(249 249 247 / .12);
-             padding: 5px;
-             border-radius: 50%;
-             height: 27px;
-             width: 27px;
-        }
-        ul {
-             gap: 4px;
-            
-        }
+  }
+  .contact-info {
+    gap: 25px;
+  }
+  .social-networks {
+    img {
+      background-color: rgb(249 249 247 / 0.12);
+      padding: 5px;
+      border-radius: 50%;
+      height: 27px;
+      width: 27px;
     }
-
-    .contact-info,
-    .social-networks ul {
-        display: flex;
-        align-items: center;
-        gap: 4px;
+    ul {
+      gap: 4px;
     }
+  }
 
-        .main-menu {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-block: 30px;
-            .container-logo {
-                display: flex;
-                align-items: center;
-                gap: 14px;
-                font-style: italic;
-                
-                
-            }
-            nav.menu ul {
-                display: flex;
-                align-items: center;
-                gap: 40px;
-                li {
-                    padding: 4px 16px;
-                    border-radius: 34%;
-                    background-color: transparent;
-                    transition: background-color .5s;
-                    font-weight: 500;
-                    &:hover {
-                        background-color: #DBDFD0;
-                    }
-                    
-                
-                }
+  .contact-info,
+  .social-networks ul {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
 
-             }
-
+  .main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 30px;
+    nav.menu ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      li {
+        padding: 4px 16px;
+        border-radius: 34%;
+        background-color: transparent;
+        transition: background-color 0.5s;
+        font-weight: 500;
+        &:hover {
+          background-color: #dbdfd0;
         }
-  
-    } 
+      }
+    }
+  }
+}

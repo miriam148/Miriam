@@ -1,0 +1,91 @@
+.footer {
+    background-color: #474747;
+    padding-block: 88px;
+    .lists {
+        display: flex;
+        justify-content: space-between;
+        margin-block: 100px;
+        border-block-end: 1px solid #414536;
+       .list-item {
+            flex: 0 1 33.33333%;
+            &:first-column {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .main-title {
+                    color: #fff;
+                }
+                p {
+                    color: #adb29e;
+                    font-family: var(--font-primary);
+                    line-height: 1.5;
+                    max-inline-size: 290px;
+                    font-weight: 400;
+                }
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    img {
+                        background-color: #ad343e;
+                        padding: 8px;
+                        border-radius: 50%;
+                        aspect-ratio: 1;
+                        width: 35px;
+                    }
+                } 
+                
+            }
+            p {
+                color: #f9f9f7;
+                font-family: var(--font-primary);
+                font-weight: 700;
+                line-height: 1.5;
+                margin-block-end: 40px;
+            }
+            &.grid-column ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                gap: 15px;
+                overflow: hidden;
+                img {
+                    border-radius: 12%;
+                }
+            }
+        }
+        .list-menu {
+            display: flex;
+            gap: 60px;
+            flex-grow: 1;
+            .list-item  {
+               ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                    a {
+                        color: #dbdfdb;
+                        font-family: var(--font-primary);
+                        line-height: 1.5;
+                    }
+                }
+                &:last-child {
+                    flex-grow: 1;
+                }
+            }
+        }  
+    }
+    .copyright {
+        color: var(--Neutral-40, #adb29e);
+        font-family: var(--font-primary);
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        margin-inline-start: 30px;
+        }
+    .container-logo {
+        display: flex;
+        align-items: center;
+    }
+}        
+    

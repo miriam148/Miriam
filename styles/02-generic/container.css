@@ -1,26 +1,36 @@
 html {
-    font-family: var(--font-primary);
+  font-family: var(--font-primary);
 }
 .container {
-    max-width: 1300px;
-    margin: 0 auto;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .d-flex {
-    display: flex;
-    justify-content: space-between
+  display: flex;
+  justify-content: space-between;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-title);
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title);
+  margin: 0;
 }
 .container-padding {
-    padding-block: 120px;
+  padding-block: 120px;
 }
 .secondary-title {
-    font-size: 55px;
-    font-weight: 500;
+  font-size: 55px;
+  font-weight: 500;
 }
 .bg-color {
-    background-color: #f9f9f7;
-
+  background-color: #f9f9f7;
+}
+.container-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-style: italic;
 }

@@ -1,28 +1,31 @@
 .hero {
-    background-image: linear-gradient(rgb(255 255 255 / 0.4) 4%, rgb(255 255 255 / 0.4) 100%), url(../../images/Hero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-block: 10%;
-    text-align: center;
-    hgroup {
-        max-width: 41.6rem;
-        margin-inline: auto;
-        margin-block-end: 40px;
-        .primary-title {
-            font-size: 6.25rem;
-            font-weight: 25rem ;
-            margin-block-end: 32px;
-            color: #474747;
-        }
-        p {
-            font-size: 20px;
-        }
+  background-image: linear-gradient(
+      rgb(255 255 255 / 0.4) 4%,
+      rgb(255 255 255 / 0.4) 100%
+    ),
+    url(../../images/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 10%;
+  text-align: center;
+  hgroup {
+    max-width: 41.6rem;
+    margin-inline: auto;
+    margin-block-end: 40px;
+    .primary-title {
+      font-size: 6.25rem;
+      font-weight: 25rem;
+      margin-block-end: 32px;
+      color: #474747;
     }
-    .actions {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
+    p {
+      font-size: 20px;
     }
+  }
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
 }
-

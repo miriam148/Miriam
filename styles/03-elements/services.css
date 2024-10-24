@@ -1,23 +1,21 @@
 .services {
-    .secondary-title {
-        max-width: 675px;
-        margin-block-end: 64;
+  .secondary-title {
+    max-width: 675px;
+    margin-block-end: 64;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  article {
+    img {
+      margin-block-end: 30px;
     }
-    ul {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-
+    h3 {
+      font-size: 24px;
+      font-family: var(--font-primary);
+      margin-block-end: 15px;
     }
-    article {
-        img {
-            margin-block-end: 30px;
-        }
-            h3 {
-                font-size: 24px;
-                font-family: var(--font-primary);
-                margin-block-end: 15px;
-            }
-        
-    }
+  }
 }

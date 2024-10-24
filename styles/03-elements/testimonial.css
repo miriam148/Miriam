@@ -1,44 +1,40 @@
 .testimonial {
-    .secondary-title {
-        text-align: center;
-        margin-block-end: 64px;
+  .secondary-title {
+    text-align: center;
+    margin-block-end: 64px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  article {
+    padding: 48px 22px 32px 48px;
+    border-radius: 12px;
+    background: var(--neutral-10, #f9f9f7);
+    .red-title {
+      color: #ad343e;
+      font-family: var(--font-primary);
+      font-size: 24px;
+      font-weight: 700;
+      margin-block-end: 24px;
     }
-    ul {
-        display: flex;
-        align-items: center;
-        gap: 24px;
+    .review {
+      font-size: 18px;
+      line-height: 1.55;
+      padding-block-end: 32px;
+      border-bottom: 1px solid rgba(219, 223, 208, 0.7);
     }
-    article {
-        padding: 48px 22px 32px 48px;
-        border-radius: 12px;
-        background: var(--neutral-10, #f9f9f7);
-        .red-title {
-            color: #ad343e;
-            font-family: var(--font-primary);
-            font-size: 24px;
-            font-weight: 700;
-            margin-block-end: 24px;
-        }
-        .review {
-            font-size: 18px;
-            line-height: 1.55;
-            padding-block-end: 32px;
-            border-bottom: 1px solid rgba(219, 223, 208, .7);
-
-
-        }
-        .author {
-            display: flex;
-            align-items: center;
-            gap: 24px;
-            margin-block-start: 32px;
-            .name {
-                font-weight: 700;
-                line-height: 1.5;
-                margin-block-end: 4px;
-            }
-
-        }
-
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-block-start: 32px;
+      .name {
+        font-weight: 700;
+        line-height: 1.5;
+        margin-block-end: 4px;
+      }
     }
+  }
 }
