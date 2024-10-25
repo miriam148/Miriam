@@ -8,13 +8,16 @@
         border-block-end: 1px solid #414536;
        .list-item {
             flex: 0 1 33.33333%;
-            &:first-column {
+            .first-column {
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
-                .main-title {
-                    color: #fff;
+                .container-logo {
+                    .main-title {
+                        color: #fff;
+                    }
                 }
+               
                 p {
                     color: #adb29e;
                     font-family: var(--font-primary);
